@@ -1,4 +1,4 @@
-# final-project
+# Final-project
 
 Automatic Identification of
 Parallel Growth Among Neuronal
