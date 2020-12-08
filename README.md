@@ -27,7 +27,7 @@ exemple:   C: /Users/inbar/Desktop/result1/10/MOSHE6.png
         #Python: cv.Canny(image, edges, threshold1, threshold2, aperture_size=3) → None
 
 3. Row #381 + #382: regarding merging lines that are on the same line or with duplicates. you can change the values
-min_distance_to_merge = 20 // range can be from 10-40
-min_angle_to_merge = 5  // The ideal values can be range from 5-10
+#381: min_distance_to_merge = 20 // range can be from 10-40
+#382 min_angle_to_merge = 5  // The ideal values can be range from 5-10
 
 ** The ideal values were selected after a broad examination of ranges and finding the effective numbers for maximum line marking
