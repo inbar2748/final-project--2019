@@ -13,24 +13,24 @@ External advisor: Prof. Danny BARANES and Dr. Refael MINNES
 
 September 2019
 
-- Drag all files from to Pycharm software or any other Python debugger.
-- You may be prompted to download certain directories that are in the files so that you can compile the code. It takes a few minutes.
+_____________________________________________________________________________________________________________________________________
 
-The file to work on and compile is "main_solution_update.py" '
+Installation:
+- Drag all .py files to Pycharm software or any other Python debugger.
+- You may be prompted to installing certain packages.
+
+The main file to work on is "main_solution_update.py" '
 The lines of code in this file that need to be modified in order to update the parameters of each image accordingly are:
 
-Line No. 77 - Inside the brackets, write the full address of the image and its name, and the image must be saved as a png type.
-C: /Users/inbar/Desktop/result1/10/MOSHE6.png
-Row # 90- in the function to change the third parameter, threshold1, should be in the range of 100-200
- 
- cv.Canny (image, edges, threshold1, threshold2, aperture_size = 3)
+1. Row #84: Inside the brackets, write the full address location of the image file. the image must be saved as a png type.
+exemple:   C: /Users/inbar/Desktop/result1/10/MOSHE6.png
 
-Row No. 374 - regarding merging lines that are on the same line or with duplicates.
-min_distance_to_merge = 20
-The ideal values ​​range from 10-40
+2. Row #97: in the Canny function you can change the third parameter, threshold1, should be in the range of 100-200.
+   dst = cv.Canny(blur, 25, 140, None, 3)  # threshold1= 200- 110- as the num is low- the lines are more detect
+        #Python: cv.Canny(image, edges, threshold1, threshold2, aperture_size=3) → None
 
-Row No. 375 - regarding merging lines that are on the same line or with duplicates.
-min_angle_to_merge = 5
-The ideal values ​​range from 5-10
+3. Row #381 + #382: regarding merging lines that are on the same line or with duplicates. you can change the values
+min_distance_to_merge = 20 // range can be from 10-40
+min_angle_to_merge = 5  // The ideal values can be range from 5-10
 
-* The ideal values ​​for me are after a broad examination of ranges and finding the effective numbers for maximum marking of lines.
+** The ideal values were selected after a broad examination of ranges and finding the effective numbers for maximum line marking
