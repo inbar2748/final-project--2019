@@ -6,13 +6,10 @@ Dendritic Branches
 
 Inbar DAHARI 
 
-Ariel UNIVERSITY
-
 Internal advisor: Prof. Boaz BEN MOSHE
 External advisor: Prof. Danny BARANES and Dr. Refael MINNES
-
+-Ariel UNIVERSITY-
 September 2019
-
 _____________________________________________________________________________________________________________________________________
 
 Installation:
